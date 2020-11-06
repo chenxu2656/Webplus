@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#all_content{
+    width: 1280px;
+    margin: auto;
+    padding: auto;
+    /* text-align: center; */
+}
+
+/* study in ahmu */
+#logo{
+    width: 1280px;
+    height: 40px;
+    border-bottom: 2px solid #006633;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#logo-left{
+    float: left;
+    color:#006633;
+    /* margin-left: 10px; */
+    font-size: 22px;
+    font-weight: bold;
+}
+#logo-right{
+    float: left;
+    margin-left: 60px;
+    height: 20px;
+    color: grey;
+    font-size: 13px;
+}
+#logo-find{
+    float: left;
+    width: 150px;
+    height: 20px;
+    margin-left: 780px;
+}
+#nav-content{
+    width: 1280px;
+    height: 100px;
+    display: table;
+}
+#nav-left{
+    /* clear: both; */
+    width: 300px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#nav-left img{
+    width: 300px;
+    height: 70px;
+    /* vertical-align: middle; */
+    
+}
+#nav-con{
+    width: 900px;
+    height: 20px;
+    display: table-cell;
+    margin:5px auto;
+    vertical-align:middle;
+    padding-left: 70px;
+}
+.search {
+    background: url(../img/find.png);
+}
+.nav-item a {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    transition: 0.3;;
+}
+ .nav-item a:hover{
+    color: #ccc;
+}

@@ -1,0 +1,159 @@
+#banner img{
+    width: 1280px;
+    height: 400px;
+}
+#banner{
+    width: 1280px;
+    height: 400px;
+    margin-top: 20px;
+}
+#content{
+    width: 1280px;
+    height: 300px;
+}
+#content-title-line{
+    width: 510px;
+    height: 10px;
+    border-bottom: 2px solid #006633;
+    float: left;
+    margin-left: 20px;
+    margin-right: 23px;
+    margin-top: 25px;
+}
+#content-title-lr{
+    float: left;
+    width: 510px;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid #006633;
+    margin-top: 25px;
+}
+#content-title-con{
+    float: left;
+    width: 150px;
+    height: 50px;
+    color: #006633;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#content-AHMU{
+    clear: both;
+    width: 1280px;
+    height: 600px;
+    
+}
+#whyus,#Scholarships{
+    margin-left: 172px;
+}
+.AHMU{
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 60px;
+    transition: all .3s;
+	border: 3px solid #ccc;
+  
+}
+.AHMU:hover{
+    border-bottom-color: #006633;
+    transform: translateY(-10px);
+}
+
+.content-AHMU-title{
+    font-weight: bold;
+    color: #434343;
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+}
+.AHMU .news img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.AHMU .icon img{
+    clear: both;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+#content-stu-line{
+    width: 480px;
+    height: 10px;
+    border-bottom: 2px solid #006633;
+    float: left;
+    margin-left: 23px;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+#content-stu-lr{
+    float: left;
+    width: 480px;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid #006633;
+    margin-top: 15px;
+}
+#content-stu-con{
+    float: left;
+    width: 200px;
+    height: 50px;
+    color: #006633;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#content-stu{
+    clear: both;
+    width: 1000px;
+    height: 180px;
+    margin: 40px auto;
+}
+#foot-line{
+    width: 1280px;
+    height: 15px;
+    border-top: 2px solid #006633;
+}
+.ctrl {
+    width: 348px;
+    text-align: center;
+    padding: 5px 0;
+    display: none;
+}
+.trigger-bar {
+    width: 423px;
+    height: 18px;
+    display: none;
+}
+.scrollable-panel {
+    position: relative;
+    width: 1080px;
+    height: 180px;
+    overflow: hidden;
+}
+.scrollable-panel img {
+    float: left;
+    display: inline;
+    margin: 0px 0 0 0px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#time-name{
+    width: 20px;
+    float: left;
+}

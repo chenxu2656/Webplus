@@ -1,0 +1,89 @@
+<!--
+开发主题： 安徽医科大学南校管委会网站主题开发
+开发日期：2019.7.1
+开发人员：许晨晨
+联系方式：chenxu2656@gmail.com 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>安徽医科大学南校管委会</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<script>
+        window.onload = function () {
+            $("#find-logo").click(function () {
+                $("#find").slideToggle(100);
+            })
+            $("#keyword").val("");
+            $("#keyword").attr("placeholder","请输入关键词回车搜索");
+        }
+    
+    </script>
+<body>
+    <!-- 放置顶部logo -->
+    <div id="logo">
+        <div id="head-img">
+                <img src="./images/head2.png" alt="">
+            <div id="find" frag="面板10" style="display: none">
+                <div frag="窗口10">
+                    <div frag="窗口内容"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航 -->
+    <div id="nav-body">
+            <div id="nav-con">
+                <div id="nav" frag="面板1">
+                    <div frag="窗口1">
+                        <div frag="窗口内容"></div>
+                    </div>
+                </div>
+                <div id="find-logo">
+                    <img id="sousuo" src="./images/find.png" width="30px" height="30px" onclick="find()">
+                </div>
+            </div>
+    
+        </div>
+    <!-- 内容部分-->
+    <div id="info">
+        <!-- <div id="info-img">
+            <img src="./images/head-background.jpg" width="1200px" height="200px" >
+        </div> -->
+        <div id="info-title" frag="面板4">
+            <div frag="窗口4">
+                <div frag="窗口内容"></div>
+            </div>
+        </div>
+        <div id="info-bottom-message">
+            <div id="date" frag="面板5">
+                <div frag="窗口5">
+                    <div frag="窗口内容"></div>
+                </div>
+            </div>
+            <div id="times">
+                <span>浏览次数:</span>
+            </div>
+
+            <div id="see" frag="面板7">
+                <div frag="窗口7">
+                    <div frag="窗口内容"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="info-bottom-content" frag="面板6">
+            <div frag="窗口8">
+                <div frag="窗口内容"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

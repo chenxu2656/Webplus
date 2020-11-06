@@ -1,0 +1,439 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a:link{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color:black;
+}
+a:visited{ 
+    color:black;
+}
+a:active{
+    color: black;
+}
+#footer a{
+    color: white;
+}
+body{
+    margin: auto;
+    padding: auto;
+    
+}
+#all_content{
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#nav-body{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color: #0A498D;
+    text-align: center;
+}
+#nav{
+    background-color: #0A498D;
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    padding: auto;
+    font-size: 150%;
+    font-style: normal;
+    /* border: 1px solid black; */
+}
+#find{
+    float: right;
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+#row1{
+    margin-top: 70px;
+    white-space: nowrap;
+    height: 450px;
+}
+
+#img-display{
+    width: 740px;
+    height: 440px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align:top;
+}
+#notice{
+    width: 430px;
+    height: 440px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 20px;
+}
+.tt{
+    background-color: #EBF3FC;
+    border-top: 1px solid #0A498D;
+    padding-bottom: 10px;
+    color: #0A498D;
+    font-family: "SimSun";
+}
+.tt .tit{
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.tt .tit .title{
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    height:32px; 
+    line-height:32px; 
+    padding-left:15px;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+.tt .more_btn{
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "SimSun";
+    color: #0A498D;
+    width: 297px;
+    text-align: right;
+    line-height: 32px;
+    /* border: 1px solid black; */
+}
+.con{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#row2{
+    margin-top: 10px;
+    white-space: nowrap;
+    height: 380px;
+}
+#notice5{
+    width: 380px;
+    height: 380px;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    margin-right: 22px;
+    display: inline-block;
+    vertical-align:top;
+}
+.tt .more_btn5,.more_btn6,.more_btn7{
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 17px;
+    font-family:"SimSun";
+    width: 250px;
+    text-align: right;
+    /* border: 1px solid black; */
+}
+#notice6{
+    width: 380px;
+    height: 380px;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align:top;
+}
+#notice7{
+    width: 380px;
+    height: 380px;
+    margin-left: 22px;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align:top;
+}
+#row3{
+    margin-top: 10px;
+    white-space: nowrap;
+    height: 380px;
+}
+#notice8{
+    width: 200px;
+    height: 380px;
+    border-top: 2px solid #0A498D;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+#link{
+    width: 200px;
+    height: 48px;
+    background-color: #EBF3FC;
+}
+#link img{
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align:top;
+}
+#text_link{
+    width: 140px;
+    height: 48px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: center;
+    line-height: 48px;
+    color: #0A498D;
+    font-size: 18px;
+}
+#notice9{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 380px;
+    width: 745px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align:top;
+}
+.tt .more_btn9{
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 17px;
+    font-family:"SimSun";
+    margin-left: 534px;
+}
+#notice10{
+    width: 200px;
+    height: 380px;
+    margin-right: 0px;
+    margin-top: 5px;
+    border-top: 2px solid #0A498D;
+    display: inline-block;
+    vertical-align:top;
+}
+#footer{
+    background-color: #0A498D;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.record{
+    color: white;
+}
+
+
+
+/* 额外覆盖样式 */
+.wp_article_list .list_item{
+    border-bottom-style:none;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    font-size: 16px;
+    margin-left: 0px;
+    list-style: none;
+}
+ol, ul ,li{
+    list-style: none;
+    list-style-type:none;
+}
+
+/* list */
+#item{
+    margin-top: 70px;
+}
+#item-left{
+
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+#item-title{
+    width: 210px;
+    height: 100px;
+    background-color: #0A498D;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:"SimSun";
+}
+#item-title-list{
+    width: 210px;
+    height: 300px;
+    /* border: solid black 1px; */
+    margin-top: 10px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-family:"SimSun";
+    text-align: center;
+}
+#item-right{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 980px;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align: top;
+}
+#item-right-top{
+    width: 980px;
+    height: 48px;
+    background-color: #EBF3FC;
+    border-top: 2px solid #0A498D;
+}
+#item-right-top-left{
+    height: 48px;
+    line-height: 48px;
+    width: 300px;
+    margin-left: 5px;
+    color:#0A498D;
+    font-family: "SimSun";
+    font-size: 17px;
+    /* border: 1px solid black; */
+    /* display: inline-block;
+    vertical-align:top; */
+    float: left;
+    
+}
+#item-right-top-right{
+    width: 600px;
+    height: 48px;
+    line-height: 48px;
+    color:#0A498D;
+    font-family: "SimSun";
+    font-size: 17px;
+    /* border: 1px solid black; */
+    /* display: inline-block;
+    vertical-align:top; */
+    float: right;
+    text-align: right;
+}
+#item-list{
+    margin-top: 20px;
+    width: 980px;
+    height: 500px;
+    /* border: solid 1px black; */
+}
+#ltem-title-list ul li{
+    background-color: #EBF3FC;
+}
+#ltem-title-list ul li ul li{
+    background-color: white;
+    padding-left: 10px;
+}
+
+.wp_listcolumn .wp_column a {
+    background-image: none;
+    background-color: #EBF3FC;
+    border-bottom: none;
+}
+
+.wp_listcolumn .wp_column a.selected{
+    background-image: none;
+    background-color: #EBF3FC;
+}
+.wp_listcolumn .wp_subcolumn .wp_column a .column-name{
+    padding-left: 40px;
+}
+
+/* display */
+#info{
+    width: 1200px;
+    border-top: 1px solid black; 
+    height: 1000px;
+    margin-top: 70px;
+}
+
+#info-bottom-title{
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #0A498D;
+}
+#info-bottom-message{
+    margin-top: 2px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+#info-bottom-content{
+    margin-top: 2px;
+    /* border: 1px solid black; */
+}
+
+/* 搜索框 */
+.wp_search table{
+    background: white;
+    height: 40px;
+}
+.wp_search table tbody tr td input#keyword{
+    width: 200px!important;
+}
+.wp_search table tbody tr td input#keyword,.wp_search table tbody tr td input.search{
+    height: 40px;
+}
+.wp_search table tbody tr td input.search {
+    top: 0;
+    margin-left: 2px;
+    width: 40px;
+    height: 40px;
+    background: url(./images/search.png);
+}
+.wp_search table tbody tr td input.search:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+#footer2{
+    background-color: #0A498D;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.picbase1-credit{
+    display: none;
+}
+.picbase1-content p{
+    display: none;
+}
+
+#date{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#see{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+#times
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}

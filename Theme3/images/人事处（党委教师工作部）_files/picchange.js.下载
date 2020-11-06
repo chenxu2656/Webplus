@@ -1,0 +1,122 @@
+/**
+ * picbase1 - SudyTech
+ * 
+ * @author jzhou
+ * @publishDate 2012 3
+ * 
+ */
+
+(function ($) {
+
+  function init(target){
+   	var state = $.data(target, 'picbase1');
+   	if (!state.loaded){
+   		$(target).width(state.options.width);
+   		$(target).height(state.options.height)
+   		$(target).addClass('picbase1s');
+    	var feature = $('<div class="picbase1"></div>').appendTo(target);
+    	feature.width(state.options.width);
+    	feature.height(state.options.height);
+    	var img = $('<img />').appendTo(feature);
+    	img.width(state.options.width);
+    	img.height(state.options.height);
+    	var feature_content = $('<div class="picbase1-content"></div>').appendTo(feature);
+   		var feature_content_h2 = $('<h2></h2>').appendTo(feature_content);
+    	var feature_content_p = $('<p></p>').appendTo(feature_content);
+    	var feature_credit = $('<small class="picbase1-credit"></small>').appendTo(feature);
+    	var slidenav = $('<ul class="picbase1-slidenav"></ul>').appendTo(target);
+       
+    	var firstSlide = state.options.data.article[0];
+    	if (firstSlide){
+    				img.attr("src",firstSlide.image).attr("alt",firstSlide.title);
+						feature_content.attr('style',firstSlide.css);
+						feature_content_h2.html(firstSlide.title);
+						feature_content_p.html(firstSlide.copy);
+						if (firstSlide.credit!="") {
+							feature_credit.html('Photo: <b>'+firstSlide.credit+'</b>');	
+						} else {
+							feature_credit.html('');
+						}
+		}
+						
+		$.each(state.options.data.article, function (i, item) {
+        slidenav.append('<li><img height="38px" width="92px" src="' + this.thumb + '" alt="' + this.title + '" /></li>');
+				preLoadImages(this.image,this.thumb);
+			}); // each
+		slidenav.find('li:first').addClass('active');
+		var ready=1;
+
+		slidenav.find('li').each(function(){		
+			$(this).click(function(){
+				if(ready===1) {
+					ready=0;
+					slidenav.find('li.active').removeClass('active');
+					$(this).addClass('active');
+
+					var n = $(this).index();				
+					var original = $(target).find('.picbase1:eq(0)');
+						
+					var clone = original.clone(true);
+					var slide = state.options.data.article[n];
+					
+					clone.find('img').attr("src",slide.image).attr("alt",slide.title);
+					clone.find('.picbase1-content').attr('style',slide.css);
+					clone.find('h2').html(slide.title);
+					clone.find('.picbase1-content p').html(slide.copy);
+
+					if (slide.credit!="") {
+						clone.find('.picbase1-credit').html('Photo: <b>'+slide.credit+'</b>');	
+					} else {
+						clone.find('.picbase1-credit').html('');
+					}
+					clone.insertAfter(original).hide().fadeIn(500, function() {
+						original.remove();
+						ready=1;
+					});
+				}
+			}); //click
+			
+			var thumbnail = $(this).children('img');
+			$(this).hover(function(){
+				thumbnail.hide().fadeIn('fast');                                                                                          
+			},function(){
+				thumbnail.hide();
+			});//hover
+		}); //each
+	}
+	state.loaded = true;
+  }
+  
+  var cache = [];
+
+	function preLoadImages() {
+		var args_len = arguments.length;
+		for (var i = args_len; i--;) {
+			var cacheImage = document.createElement('img');
+			cacheImage.src = arguments[i];
+			cache.push(cacheImage);
+		}
+	}
+
+    $.fn.picbase1 = function (options, param) {
+        options = options || {};
+        return this.each(function(){
+            var state = $.data(this, 'picbase1');
+            if (state){
+                $.extend(state.options, options);
+            } else {
+                state = $.data(this, 'picbase1', {
+                    options: $.extend({}, $.fn.picbase1.defaults, options),
+                    loaded:false
+                });
+            }
+            init(this);
+        });
+    };
+
+    $.fn.picbase1.defaults = {
+        width:940,
+        height:394
+    };
+    
+})(jQuery);

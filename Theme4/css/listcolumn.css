@@ -1,0 +1,73 @@
+#banner img{
+    width: 1280px;
+    height: 200px;
+    margin-top: 25px;
+}
+#list-con{
+    height: 800px;
+}
+/* #list-con-left{
+    width: 250px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: #006633;
+    color: white;
+    font-size: 22px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+} */
+/* #list-con-right{
+    margin-top: 50px;
+} */
+
+/* #list-con-title{
+    margin: 20px;
+    margin-left:40px;
+    float: left;
+    width: 145px;
+    color: #006633;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2px solid #006600;
+}
+#list-line{
+    float: left;
+    margin-left: -20px;
+    margin-top: 51px;
+    width: 700px;
+    border-bottom: 2px solid #6B6B6B;
+}
+.list-list a{
+    color: black;
+    text-decoration: none;
+    transition: all .3s;
+}
+.list-list a:hover{
+    text-decoration: none;
+    color: #6B6B6B;
+
+}
+.list-list{
+    clear: both;
+    margin-left: 350px;
+    /* margin-top: -20px; */
+    /* font-size: 20px;
+    width: 800px;
+    padding: 5px;
+    border-bottom: 1.5px solid #AEAEAE;
+} */ 
+#list-con{
+    width: 1000px;
+    height: 500px;
+    /* border: 1px solid #000; */
+    margin: 10px auto;
+}
+#foot{
+    clear: both;
+    width: 100%;
+    height: 15px;
+    border-bottom: 2px solid #006633;
+}

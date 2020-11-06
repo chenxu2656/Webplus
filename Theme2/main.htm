@@ -1,0 +1,254 @@
+<!--
+开发主题： 安徽医科大学南校管委会网站主题开发
+开发日期：2019.7.1
+开发人员：许晨晨
+联系方式：chenxu2656@gmail.com 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>安徽医科大学南校管委会</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<script>
+    window.onload = function () {
+        $("#find-logo").click(function () {
+            $("#find").slideToggle(100);
+        })
+        $("#keyword").val("");
+        $("#keyword").attr("placeholder", "请输入关键词回车搜索");
+        var allWidth=document.body.clientWidth;
+        $("#LB").css("width","allWidth");
+        var allHight=allWidth*0.33;
+        console.log(allHight);
+        console.log(allWidth);
+        $("#LB").css("height",allHight);
+        $("#LB img").css("height",allHight);
+        $(window).resize(function() {
+            var allWidth=document.body.clientWidth;
+        $("#LB").css("width","allWidth");
+        var allHight=allWidth*0.33;
+        console.log(allHight);
+        console.log(allWidth);
+        $("#LB").css("height",allHight);
+        $("#LB img").css("height",allHight);
+  });
+    }
+</script>
+
+<body>
+    <!-- 放置顶部logo -->
+    <div id="logo">
+        <div id="head-img">
+            <img src="./images/head2.png" alt="">
+            <div id="find" frag="面板10" style="display: none">
+                <div frag="窗口10">
+                    <div frag="窗口内容"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航 -->
+    <div id="nav-body">
+        <div id="nav-con">
+            <div id="nav" frag="面板1">
+                <div frag="窗口1" portletmode="simpleSudyNavi"
+                    configs="{'c1':'1','c7':'2','c4':'_self','c3':'15','c6':'235','c8':'2','c9':'0','c2':'1','c5':'2'}"
+                    contents="{'c2':'0', 'c1':'/首页,/南区概况,/机构设置,/新闻中心,/党建之窗,/规章制度,/校园风采,/通知公告,/学校主页'}">
+                    <div frag="窗口内容"></div>
+                </div>
+            </div>
+            <div id="find-logo">
+                <img id="sousuo" src="./images/find.png" width="30px" height="30px" onclick="find()">
+            </div>
+        </div>
+
+    </div>
+    <!-- 轮播图 -->
+    <div id="LB">
+        <div frag="窗口90" portletmode="tpl2_dtjt2" contents="{'c2':'1', 'c1':'/顶部图片'}">
+            <div frag="窗口内容">
+                <img src="./images/ahmu.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- 内容部分-->
+    <div id="all_content">
+        <!-- 第一列 -->
+        <div id="LIE1">
+            <!-- 第一行 -->
+            <div id="row1">
+                <div id="TPXW">
+                    <div id="img-display" frag="面板2">
+                        <div frag="窗口2" portletmode="tpl2_dtjt" contents="{'c2':'1', 'c1':'/图片新闻'}">
+                            <div frag="窗口内容"></div>
+                        </div>
+                    </div>
+                    <div id="LIE2ROW3">
+                        <div id="row3_1">
+                            <div id="row3_1_1">
+                                <div id="row3_1_1_1">
+                                    <a href="">
+                                        <img src="./images/dh/1.png" width="50px">
+                                        <p>书记信箱</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="row3_1_1">
+                                <div id="row3_1_1_1">
+                                    <a href="">
+                                        <img src="./images/dh/1.png" width="50px">
+                                        <p>书记信箱</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="row3_1_1">
+                                <div id="row3_1_1_1">
+                                    <a href="">
+                                        <img src="./images/dh/1.png" width="50px">
+                                        <p>书记信箱</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="row3_1">
+                                <div id="row3_1_1">
+                                    <div id="row3_1_1_1">
+                                        <a href="">
+                                            <img src="./images/dh/1.png" width="50px">
+                                            <p>书记信箱</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="row3_1_1">
+                                    <div id="row3_1_1_1">
+                                        <a href="">
+                                            <img src="./images/dh/1.png" width="50px">
+                                            <p>书记信箱</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="row3_1_1">
+                                    <div id="row3_1_1_1">
+                                        <a href="">
+                                            <img src="./images/dh/1.png" width="50px">
+                                            <p>书记信箱</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="XW" frag="面板3">
+                    <div frag="窗口3" portletmode="simpleNews"
+                        configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'10','c2':'序号,标题,发布时间','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}"
+                        contents="{'c2':'0', 'c1':'/新闻中心'}">
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" frag="标题"> <span frag="标题内容">新闻中心</span></span></h3>
+                            <div class="more_btn" frag="按钮" type="更多"><span class="more_text"
+                                    frag="按钮内容">阅读更多&gt;</span>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div frag="窗口内容"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="row2">
+               
+                <div id="DJ" frag="面板5">
+                    <div frag="窗口5" portletmode="simpleNews" contents="{'c2':'0', 'c1':'/党建之窗'}">
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" frag="标题" title="党建之窗"> <span
+                                        frag="标题内容">党建之窗</span></span></h3>
+
+                            <div class="more_btn" frag="按钮" type="更多"><span class="more_text"
+                                    frag="按钮内容">阅读更多&gt;</span>
+                            </div>
+
+                        </div>
+                        <div class="con">
+                            <div frag="窗口内容"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GZZD" frag="面板4">
+                        <div frag="窗口4" portletmode="simpleNews" contents="{'c2':'0', 'c1':'/党建之窗'}">
+                            <div class="tt">
+                                <h3 class="tit"><span class="title" frag="标题"> <span frag="标题内容">校园风采</span></span></h3>
+                                <div class="more_btn" frag="按钮" type="更多"><span class="more_text"
+                                        frag="按钮内容">阅读更多&gt;</span>
+                                </div>
+                            </div>
+                            <div class="con">
+                                <div frag="窗口内容"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- 第二列 -->
+        <div id="LIE2">
+            <div id="tzgg" frag="面板6">
+                <div frag="窗口6" portletmode="simpleNews" contents="{'c2':'0', 'c1':'/通知公告'}">
+                    <div class="tt">
+                        <h3 class="tit"><span class="title" frag="标题" title="通知公告"> <span frag="标题内容">通知公告</span></span>
+                        </h3>
+
+                        <div class="more_btn" frag="按钮" type="更多"><span class="more_text" frag="按钮内容">阅读更多&gt;</span>
+                        </div>
+
+                    </div>
+                    <div class="con">
+                        <div frag="窗口内容"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="ZD2" frag="面板11">
+                <div frag="窗口11">
+                    <div class="tt">
+                        <h3 class="tit"><span class="title" frag="标题"> <span frag="标题内容">规章制度</span></span></h3>
+                        <div class="more_btn" frag="按钮" type="更多"><span class="more_text" frag="按钮内容">阅读更多&gt;</span>
+                        </div>
+
+                    </div>
+                    <div class="con">
+                        <div frag="窗口内容"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 页脚 -->
+
+        </div>
+        <div id="bottonImg">
+            <p>专题链接</p>
+            <div id="ZT">
+                <div frag="窗口91" portletmode="tpl2_dtjt4" contents="{'c2':'1', 'c1':'/专题网站'}">
+                    <div frag="窗口内容">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="foot">
+            Copyrights 版权所有：安徽医科大学南校区管委会 皖ICP备05003562号-1 皖公网安备 34010402700601号 <br>
+            地址：安徽省合肥市翡翠路15号 
+        </div>
+</body>
+
+</html>

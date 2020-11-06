@@ -1,0 +1,860 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    margin: auto;
+    padding: auto;
+    /* text-align: center; */
+
+}
+#all_content{
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+}
+
+#logo{
+    height: 140px;
+    width: 100%;
+    /* background:url(./images/head-back2.png); */
+    text-align: center;
+}
+#nav-body{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color: #1F6BBF;
+    text-align: center;
+}
+#nav{
+    background-color: #1F6BBF;
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    padding: auto;
+    font-size: 150%;
+    font-style: normal;
+    /*border: 1px solid black;*/
+}
+/* 页脚 */
+#footer{
+    background-color: #0A498D;
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+    /* text-align: center; */
+    color: white;
+    padding-top: 40px;
+    float: left;
+}
+#foot_left{
+    width: 50%;
+    font-size: 14px;
+    float: left;
+    text-align: right;
+    padding-right: 150px;
+    
+}
+#foot_right{
+    
+    font-size: 14px;
+    float: left;
+    text-align: left;
+    padding-left: 150px;
+}
+#foot_left img{
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+#main-body-left{
+    margin-top: 60px;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin-left: 20px;
+}
+#cwnav{
+    /* border: 1px solid black; */
+    width: 265px;
+    height: 375px;
+}
+
+#cwnav-head{
+    /* background-color: #1F6BBF; */
+    width: 265px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 180%;
+    text-align: center;
+    /* font-family: "SimSun"; */
+    color: #BA0A0A;
+    font-weight: 1000;
+    border-bottom: 2px solid #BA0A0A;
+}
+#cwnav-content{
+    margin-top: 40px;
+    height: 290px;
+    /* border: 1px solid black; */
+    /* background-color: #E0E6EB; */
+}
+#download{
+    width: 460px;
+    height: 245px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align: top;
+}
+.download-true{
+    margin-left: 0px;
+}
+#main-body-right{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+}
+#img-display{
+    width: 440px;
+    height: 380px;
+    /* border: 1px solid black; */
+    display: inline-block; 
+    vertical-align:top;
+    display: inline-block;
+    vertical-align: top;
+}
+#DT{
+    width: 440px;
+    height: 380px;
+    /* border: solid black 1px; */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#main-right-center{
+    /*border: 1px solid black;*/
+    margin-top: 25px;
+}
+#ZD{
+    width: 440PX;
+    height: 300PX;
+    display: inline-block;
+    vertical-align: top;
+    /* border: 1px solid black; */
+}
+#FG{
+    width: 440PX;
+    height: 300PX;
+    display: inline-block;
+    vertical-align: top;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+}
+#FG1{
+    width: 440px;
+    height: 50px;
+
+}
+#FG2{
+    width: 440px;
+    height: 250px;
+}
+#bottom{
+    margin-top: 5px;
+}
+#LJ{
+    width: 225px;
+    height: 130px;
+    /* border: solid 1px black; */
+    display: inline-block;
+    vertical-align: top;
+    background-color: #1F6BBF;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#other{
+    width: 456px;
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 6px;
+}
+#other .more_btn{
+    width: 20px;
+    text-align: right;
+    color: #BA0A0A;
+}
+
+/* 动态 */
+#DT div .more_btn{
+    width: 50px;
+    text-align: right;
+}
+/* 下载中心 */
+#download div .more_btn{
+    width: 50px;
+    text-align: right;
+}
+/* center */
+#main-right-center div div .more_btn{
+    width: 50px;
+    text-align: right;
+}
+/* botttom */
+
+/* 搜索 */
+#find{
+    float: right;
+    margin-top: 80px;
+    margin-right: 30px;
+    width: 300px;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+
+.wp_search .search {
+    background: url(./images/find.png);
+    width: 28px;
+    height: 28px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 5px;
+    /* margin-left: 5px; */
+}
+#find .wp_search{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.wp_search input#keyword{
+    width: 180px!important;
+}
+button, input, select, textarea{
+    height: 43px;
+}
+
+/* 下拉菜单 */
+
+.btn-group button{
+    width: 225px;
+    margin-top: 0px;
+}
+.btn-group button.caret{
+    text-align: right;
+}
+.dropdown-menu li{
+    width: 223px;
+    text-align: center;
+}
+/* 下载 */
+
+.tt{
+    /* background-color: #1F6BBF; */
+    padding-bottom: 10px;
+    color: black;
+    /* font-family: "SimSun"; */
+    font-weight: 900;
+    font-size: 15px;
+    height: 50px;
+    border-bottom: 2px solid #BA0A0A;
+}
+.tt .tit{
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.tt .tit .title{
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    height:32px;
+    line-height:32px;
+    /* padding-left:15px; */
+    text-align: left;
+    /* border: 1px solid black; */
+}
+.tt .more_btn{
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "SimSun";
+    color: #BA0A0A!important;
+    text-align: right;
+    line-height: 50px;
+    /* border: 1px solid black; */
+}
+
+/* 右侧悬浮 */
+#right-img{
+    position: fixed;
+    right: 0px;
+    top: 300px;
+    /* width: 150px; */
+    height: 230px;
+    margin-right: 5px;
+    border: 1px solid #1F6BBF;
+    text-align: center;
+    z-index: -100;
+}
+#right-img img{
+    padding: 5px;
+    border-bottom: 1px solid #1F6BBF;
+}
+#right-img h3{
+    margin-top: 5px;
+    color: #1F6BBF;
+}
+/* 导航 */
+#list1,#list2,#list3,#list4{
+    height: 70px;
+    width: 245px;
+    margin-bottom: 28px;
+    background-color: #E0E6EB;
+    margin-left: 10px;
+}
+#list1{
+    margin-top: 28px;
+}
+.list-logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    /* margin-left: -30px!important; */
+}
+.list-logo img{
+    margin-left: 20px;
+}
+.list-logo1,.list-logo2{
+    margin-top: 15px;
+}
+.list-logo3,.list-logo4{
+    margin-top: 15px;
+}
+.list-contant{
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15px;
+}
+a:link{
+    text-decoration:none!important;
+    color: black;
+}
+a:hover{
+    text-decoration:none!important;
+    color:black;
+}
+a:visited{
+    text-decoration:none!important;
+    color:black;
+}
+a:active{
+    text-decoration:none!important;
+    color: black;
+}
+
+/* 额外样式 */
+.wp_article_list .list_item{
+    list-style: none;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc;
+}
+#download.down1{
+    width:265px;
+    height: 290px;
+    margin-top: 30px;
+}
+
+/* 制度样式 */
+#wp_nav_w15{
+    margin-top: 15px;
+}
+#wp_nav_w15 li{
+    width: 220px!important;
+    line-height: 60px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-top: 5px; 
+    margin-left: 5px;
+}
+#wp_nav_w15 li.i1 a{
+    background-color: #C7DFAB;
+}
+#wp_nav_w15 li.i2 a{
+    background-color: #68b7c7;
+}
+#wp_nav_w15 li.i3 a{
+    background-color: #B1DED7;
+}
+#wp_nav_w15 li.i4 a{
+    background-color: #B3DFEC;
+}
+#wp_nav_w15 li.i5 a{
+    background-color: #85d3eb;
+}
+#wp_nav_w15 li.i6 a{
+    background-color: #B1DED7;
+}
+/* dian */
+#wp_news_w14 .wp_article_list .list_item .Article_Index{
+    display: none;
+}
+#wp_news_w15 .wp_article_list .list_item .Article_Index{
+    display: none;
+}
+
+#wp_news_w4 .wp_article_list .list_item .Article_Index{
+    display: none;
+}
+#wp_news_w4 .wp_article_list .list_item{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+#wp_news_w5 .wp_article_list .list_item .Article_Index{
+    display: none;
+}
+
+#wp_news_w9 .wp_article_list .list_item .Article_Index{
+    display: none;
+}
+#wp_news_w9 .wp_article_list .list_item{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+#wp_news_w7 li .Article_Index{
+display: none;
+}
+#wp_news_w7 li{
+    height: 30px;
+    padding: 5px;
+    
+}
+/* 财务动态 */
+
+#DT .title{
+    width: 370px;
+}
+#main-right-center .title{
+    width: 370px;
+}
+#other .title{
+    width: 390px;
+}
+#download .title{
+    width: 380px;
+}
+#download.down1 .title{
+    width: 180px;
+}
+/* display页面 */
+#info{
+    width: 1200px;
+    height: 1000px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 65px;
+}
+
+#info-title{
+    width: 1200px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: #BA0A0A 2px solid;
+    font-size: 25px;
+}
+
+#info-bottom-message{
+    margin-top: 2px;
+    height: 40px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+#date{
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#see{
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+#times{
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+#info-bottom-content{
+    width: 1200px;
+    height: 10px;;
+    margin-top: 2px;
+    /* border: 1px solid black; */
+}
+
+/* list 页面*/
+#item{
+    /* margin-top: 70px; */
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 1000px;
+}
+#item-left{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 1000px;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+#item-title span.Column_Name {
+    width: 250px;
+    height: 100px;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    font-size: 25px;
+}
+#item-right{
+    display: inline-block;
+    vertical-align: top;
+    width: 920px;
+    height: 1000px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+#item-title{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    background-color: #1F6BBF;
+    border-top: #1F6BBF 2px solid;
+}
+/* #item-title-list{
+    width: 250px;
+    background-color: #C4C4C4;
+    height: 500px;
+} */
+
+#item-right-top{
+    width: 920px;
+    height: 48px;
+    background-color: #EBF3FC;
+    border-top: 2px solid #1F6BBF;
+}
+#item-right-top-left{
+    height: 48px;
+    line-height: 48px;
+    width: 300px;
+    margin-left: 5px;
+    color:#1F6BBF;
+    font-family: "SimSun";
+    font-size: 17px;
+    text-align: left;
+    /* border: 1px solid black; */
+    /* display: inline-block;
+    vertical-align:top; */ 
+    float: left;
+
+}
+#item-right-top-right{
+    width: 600px;
+    height: 48px;
+    line-height: 48px;
+    color:#1F6BBF;
+    font-family: "SimSun";
+    font-size: 17px;
+    /* border: 1px solid black; */
+    /* display: inline-block;
+    vertical-align:top; */
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+#item-list{
+    margin-top: 20px;
+    width: 910px;
+    height: 500px;
+    /* border: solid 1px black; */
+}
+#ltem-title-list ul li{
+    background-color: #EBF3FC;
+}
+#ltem-title-list ul li ul li{
+    background-color: white;
+    padding-left: 10px;
+}
+#wp_listcolumn_w4{
+    margin-top: 10px;
+}
+#wp_listcolumn_w4 .wp_listcolumn li{
+    height: 70px;
+    background-color: #EBF3FC;
+    border-top: 1px #1F6BBF solid;
+}
+#wp_listcolumn_w4 .wp_listcolumn li a{
+    border: none;
+    background: none;
+    line-height: 70px;
+}
+.wp_listcolumn .wp_column a.selected{
+    background-image: url(./images/list-back.png)!important;
+}
+#time_now{
+position: absolute;
+height: 50px;
+width: 200px;
+
+}
+#wp_news_w14{
+    margin-top: 7px;
+}
+
+#ZD .wp_article_list .list_item .Article_Index{
+    display: none;
+}
+#wp_news_w6 .wp_article_list .list_item{
+    border-bottom: 1px solid #ccc;
+}
+#head-img{
+    width: 1200px;
+    height: 140px;
+    margin-top: -12px;
+    background: url(./images/head2.png);
+    display: inline-block;
+}
+
+#other .tit {
+    margin-left: -25px !important;
+}
+button, input, select, textarea {
+    height: 30px;
+}
+
+.list-contant{
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#wp_news_w16 .Article_Index{
+    display: none;
+}
+#wp_news_w16 .list_item{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+.wp_listcolumn .wp_column a .column-name{
+    font-size: 20px;
+}
+#bottonImg{
+    font-size: 14px;
+    font-family: "Microsoft YaHei, Helvetica, STHeiti STXihei, Microsoft JhengHei, Tohoma, Arial";
+}
+
+#bottonImg p{
+    width: 100%;
+    border-bottom: #BA0A0A 2px solid;
+    height: 35px;
+}
+
+#ZT{
+    width: 1100px;
+    height: 150px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10PX;
+}
+#info-bottom-message #times{
+    margin-right: 20px;;
+}
+#info-loca{
+    width: 240px;
+    height: 40px;
+}
+#info-loca img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+#info-loca div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#info-local{
+    width: 1200px;
+    height: 100px;
+    border-bottom: 2px solid #BA0A0A;
+
+}
+#info-local img{
+    width: 40px;
+    height: 40px;
+    margin-top: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+#info-local div{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 70px;
+}
+#item-title-sub{
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+    
+}
+#footer-dis{
+    background-color: #0A498D;
+    width: 100%;
+    height: 100px;
+    vertical-align: middle;
+    /* text-align: center; */
+    color: white;
+    padding-top: 40px;
+    float: left;
+}
+#foot_left-dis{
+    width: 45%;
+    font-size: 14px;
+    float: left;
+    text-align: right;
+    padding-right: 150px;
+    
+}
+#foot_right-dis{
+    
+    font-size: 14px;
+    float: left;
+    text-align: left;
+    padding-left: 150px;
+}
+#foot_right-dis p{
+    height: 30px;
+}
+#foot_left-dis img{
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+
+
+/*  */
+#main-right-top .picbase1-content{
+    bottom: -70px;
+    left: 0px;
+    max-width:440px;
+    background: white;
+    color: black;
+}
+#main-right-top .picbase1-content p{
+    padding: 0px;
+    background: white;
+    color: black;
+}
+#main-right-top .picbase1-content h2{
+    /* padding: 0px; */
+    background: white;
+    color: black;
+    border-bottom:1px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0px;
+}
+#ZT .wp_article_list .list_item .pr_fields{
+    display: none;
+}
+#ZT .wp_article_list .list_item{
+    width: 320px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* .more_btn{
+    color: #BA0A0A;
+} */
+.more_btn a{
+    color: #BA0A0A;
+}
+span .more_text{
+    color: #BA0A0A;
+}
+#head-tit{
+    height: 50px;
+    width: 100%;
+    border-bottom:  2px solid #ba0a0a;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+#head-tit p{
+    height: 32px;
+    padding-top: 14px;
+    color: inherit;
+}
+.dtjt3_w3{
+    margin-top: 10px;
+}
+.wp_article_list{
+    margin-top: 10px;
+}
+#book{
+    display: inline-block;
+    vertical-align: top;
+    width: 903px;
+    height: 300px;
+}
+#teach{
+    display: inline-block;
+    vertical-align: top;
+    width: 265px;
+    margin-left: 15px;
+    height: 300px;
+}
+#book .title {
+    width: 850px;
+}
+#teach .tit{
+    margin-left: 15px;
+    width: 190px;
+}
+
+.wp_article_list .list_item .Article_Index{
+    display: none;
+}
+#book img {
+    vertical-align: middle;
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#book .con {
+    margin-top: 10px;
+}
